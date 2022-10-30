@@ -1,6 +1,6 @@
 ![cinema-1269996](https://user-images.githubusercontent.com/108344763/198120034-dabf350b-5192-4f98-b398-7ed2e8c354e1.jpg)
 ## Description
-This application is simple visualisation of Cinema app.
+This application is simple cinema shop management service.
 Users: You can register a new account as USER, login, work or logout later.
 Cinema: There are different cinema-halls, movies and movie-sessions with different time and parameters.
 Orders: Users can place orders through the shopping cart, pre-generated tickets with movie-sessions.
@@ -13,11 +13,12 @@ Orders: Users can place orders through the shopping cart, pre-generated tickets 
 - MySQL database.
 
 ## Features
-- log in/ log out
-- register a new user
-- implemented the opportunity to add a role to the user
-- ADMIN can add movie, movie session
-- USER can order ticket
+- Registration
+- Authentication
+- Login / Logout
+- Setting roles for users (USER by default)
+- Creating and deleting movies and movie sessions (can be performed by ADMIN)
+- Buying tickets for movie session (can be performed by USER)
 
 ## Technologies
 - Java 11
